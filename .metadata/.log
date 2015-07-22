@@ -1,0 +1,146 @@
+!SESSION 2015-07-22 22:06:12.133 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.update.configurator 2015-07-22 22:06:14.542
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/com.ibm.icu_3.6.1.v20070906.jar   Bundle "com.ibm.icu" version "3.6.1.v20070906" has already been installed from: update@plugins/com.ibm.icu_3.6.1.v20070906.jar
+
+!ENTRY org.eclipse.update.configurator 2015-07-22 22:06:14.557
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/javax.servlet.jsp_2.0.0.v200706191603.jar   Bundle "javax.servlet.jsp" version "2.0.0.v200706191603" has already been installed from: update@plugins/javax.servlet.jsp_2.0.0.v200706191603.jar
+
+!ENTRY org.eclipse.update.configurator 2015-07-22 22:06:14.558
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/javax.servlet_2.4.0.v200706111738.jar   Bundle "javax.servlet" version "2.4.0.v200706111738" has already been installed from: update@plugins/javax.servlet_2.4.0.v200706111738.jar
+
+!ENTRY org.eclipse.update.configurator 2015-07-22 22:06:14.574
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/org.apache.commons.el_1.0.0.v200706111724.jar   Bundle "org.apache.commons.el" version "1.0.0.v200706111724" has already been installed from: update@plugins/org.apache.commons.el_1.0.0.v200706111724.jar
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-07-22 22:06:42.535
+!MESSAGE Installed snippet library: D:\Myeclipse\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.5.0.zmyeclipse650200806\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-07-22 22:06:42.586
+!MESSAGE Installed snippet library: D:\Myeclipse\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.5.0.zmyeclipse650200806\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-07-22 22:06:42.608
+!MESSAGE Installed snippet library: D:\Myeclipse\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.5.0.zmyeclipse650200806\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-07-22 22:06:42.653
+!MESSAGE Installed snippet library: D:\Myeclipse\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.5.0.zmyeclipse650200806\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-07-22 22:06:42.693
+!MESSAGE Installed snippet library: D:\Myeclipse\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.5.0.zmyeclipse650200806\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-07-22 22:06:42.801
+!MESSAGE Installed snippet library: D:\Myeclipse\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.5.0.zmyeclipse650200806\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-07-22 22:06:42.856
+!MESSAGE Installed snippet library: D:\Myeclipse\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.5.0.zmyeclipse650200806\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-07-22 22:06:42.878
+!MESSAGE Installed snippet library: D:\Myeclipse\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.5.0.zmyeclipse650200806\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-07-22 22:06:42.906
+!MESSAGE Installed snippet library: D:\Myeclipse\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.5.0.zmyeclipse650200806\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-07-22 22:06:42.937
+!MESSAGE Installed snippet library: D:\Myeclipse\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.5.0.zmyeclipse650200806\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-07-22 22:06:42.960
+!MESSAGE Installed snippet library: D:\Myeclipse\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.5.0.zmyeclipse650200806\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.eclipse.wst.internet.cache 1 0 2015-07-22 22:07:43.097
+!MESSAGE wtp.autotest.noninteractive is set. Licenses dialogs will not be displayed.
+
+!ENTRY org.maven.ide.eclipse 4 0 2015-07-22 22:07:45.851
+!MESSAGE Unable to update index for central http://repo1.maven.org/maven2/
+!STACK 0
+java.io.IOException: Resource nexus-maven-repository-index.zip does not exist
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadResource(DefaultIndexUpdater.java:222)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$1.invoke(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.run(DefaultIndexUpdater.java:156)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:50)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.fetchAndUpdateIndex(NexusIndexManager.java:443)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob$UpdateCommand.run(IndexUpdaterJob.java:111)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:57)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2015-07-22 22:07:47.519
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: XGbookstore
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:713)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:111)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:45)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:269)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:183)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:624)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:166)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:197)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:246)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:249)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:334)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:137)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2015-07-22 22:07:47.519
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2015-07-22 22:07:47.519
+!MESSAGE Could not delete 'D:\githere\XGbookstore\WebRoot\WEB-INF\classes\beans.xml'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:107)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:303)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:769)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1655)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:700)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:111)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:45)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:269)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:183)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:624)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:166)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:197)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:246)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:249)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:334)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:137)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2015-07-22 22:07:47.519
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2015-07-22 22:07:47.519
+!MESSAGE Could not delete: D:\githere\XGbookstore\WebRoot\WEB-INF\classes\beans.xml.
+
+!ENTRY org.eclipse.wst.validation 4 0 2015-07-22 22:07:53.217
+!MESSAGE 
+*** ERROR ***: Wed Jul 22 22:07:53 CST 2015    org.eclipse.core.internal.resources.ResourceException: Resource '/XGbookstore' does not exist.
+    	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:310)
+    	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:193)
+    	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:94)
+    	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:858)
+    	at org.eclipse.wst.validation.internal.TaskListUtility.getValidationTasks(TaskListUtility.java:303)
+    	at org.eclipse.wst.validation.internal.TaskListUtility.getValidationTasks(TaskListUtility.java:390)
+    	at org.eclipse.wst.validation.internal.TaskListUtility.getValidationTasks(TaskListUtility.java:443)
+    	at org.eclipse.wst.validation.internal.TaskListUtility.removeTaskSubset(TaskListUtility.java:543)
+    	at org.eclipse.wst.validation.internal.TaskListUtility.removeAllTasks(TaskListUtility.java:523)
+    	at org.eclipse.wst.validation.internal.TaskListUtility.removeAllTasks(TaskListUtility.java:519)
+    	at org.eclipse.wst.validation.internal.operations.WorkbenchReporter.removeAllMessages(WorkbenchReporter.java:207)
+    	at org.eclipse.wst.validation.internal.operations.WorkbenchReporter.removeAllMessages(WorkbenchReporter.java:672)
+    	at org.eclipse.wst.validation.internal.operations.WorkbenchReporter.removeAllMessages(WorkbenchReporter.java:629)
+    	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator.doValidate(JSPBatchValidator.java:179)
+    	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator$1.run(JSPBatchValidator.java:456)
+    	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+    	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:720)
+    	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1797)
+    	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4466)
+    	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator.validateInJob(JSPBatchValidator.java:464)
+    	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:75)
+    	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
